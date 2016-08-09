@@ -33,11 +33,11 @@ a = 41
 puts "Siz tam #{a} yaşındasınız"
 ```
 
-gibi bir durumda, gördüğünüz gibi `#{a}` şeklinde yazı içinde değişken kullandık. Bu kodun çıktısı aşağıdaki gibi olacak. 
+gibi bir durumda, gördüğünüz gibi `#{a}` şeklinde yazı içinde değişken kullandık. Bu kodun çıktısı aşağıdaki gibi olacak.
 
     Siz tam 41 yaşındasınız
 
-Format olarak Ruby'de, `#{BU KISIMDA KOD ÇALIŞIR}` şeklinde istediğimiz kodu çalıştırma yetkimiz var. Bu işlem sadece **çift tırnak** kullanımında geçerlidir. Başka bir örnek vermek gerekirse; 
+Format olarak Ruby'de, `#{BU KISIMDA KOD ÇALIŞIR}` şeklinde istediğimiz kodu çalıştırma yetkimiz var. Bu işlem sadece **çift tırnak** kullanımında geçerlidir. Başka bir örnek vermek gerekirse;
 
 ```ruby
 a = 41
@@ -187,7 +187,7 @@ class User
     "Merhaba #{@name}"
   end
 
-  def self.instance_count # burası öneli
+  def self.instance_count # burası önemli
     @@instance_count
   end
 end
